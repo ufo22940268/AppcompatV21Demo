@@ -1,0 +1,134 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:apps="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:divider="?android:attr/listDivider"
+        android:orientation="vertical"
+        tools:context=".MyActivity">
+
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="EditText"
+            >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="200px"
+                android:id="@+id/editText"
+                />
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="Spinner"
+            >
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"/>
+
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="Checkbox"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New CheckBox"
+                android:id="@+id/checkBox"/>
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="RadioButton"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New RadioButton"
+                android:id="@+id/radioButton"/>
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="SwitchCompat"
+            >
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switchcompat"/>
+
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+        <bettycc.com.appcompatv21demo.LItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apps:desc="toolbar"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show toolbar"
+                android:onClick="showToolbar"
+                />
+
+        </bettycc.com.appcompatv21demo.LItem>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider"/>
+
+    </LinearLayout>
+</ScrollView>
