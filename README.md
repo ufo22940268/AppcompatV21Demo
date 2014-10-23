@@ -19,11 +19,9 @@ Screenshot
 Compile
 =========
 
- 1 Update build tools and appcompat plugin to lastest in android sdk. 
- 
- 2 And download android 5.0 platform tool.
- 
- 3 Start to compile.
+ 1. Update build tools and appcompat plugin to lastest in android sdk. 
+ 2. And download android 5.0 platform tool.
+ 3. Start to compile.
 
 Demo download
 =======
